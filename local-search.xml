@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>JAVA学习第一天</title>
+    <link href="/2021/06/23/JAVA%E5%AD%A6%E4%B9%A0%20%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+    <url>/2021/06/23/JAVA%E5%AD%A6%E4%B9%A0%20%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Java语言的发展历史"><a href="#Java语言的发展历史" class="headerlink" title="Java语言的发展历史"></a>Java语言的发展历史</h3><ol><li>Java语言的创始人    James-Gosling</li><li>Java语言的共识 SUM Standford University Network —&gt; SUN Micerosystems</li><li>Java语言的几个重大事件<div class="hljs code-wrapper"><pre><code>1995 正式发布Java1996 正式发布了JDK1.01998 发布第二代JAVA平台 简称Java2细化三个不同的版本        标准版 Standard Edition        J2SE        企业版 Enterpise Edition        J2EE        微型版 Micro Edition            j2ME2004 JDK1.5版本 添加很多新的特性Java52005 JAVA6版本2009 Oracle公司 74亿$ 收购 了SUN</code></pre></div></li><li>Java语言的特点<div class="hljs code-wrapper"><pre><code>跨平台性、面向对象、简单性、健壮性、多线程、高性能、大数据相关</code></pre></div></li></ol><h3 id="Java-跨平台机制"><a href="#Java-跨平台机制" class="headerlink" title="Java 跨平台机制"></a>Java 跨平台机制</h3><ol><li><p>JVM Java Virtual Machine 虚拟机<br>在内存中开启一块空间将java源代码文件编译为class字节码</p></li><li><p>JRE    JAVA Runtime Environment    运行环境<br>运行别人写好的Java程序</p></li><li><p>JDK    JAVA Development Kit    开发工具包<br>开发时需要用到的工具</p></li></ol><h3 id="JDK开发环境搭建"><a href="#JDK开发环境搭建" class="headerlink" title="JDK开发环境搭建"></a>JDK开发环境搭建</h3><p>Oracle公司网站下载  <a href="http://www.oracle.com/">www.oracle.com</a></p><h3 id="JAVA编写与编译执行"><a href="#JAVA编写与编译执行" class="headerlink" title="JAVA编写与编译执行"></a>JAVA编写与编译执行</h3><p>接下来，我们尝试编第一个Java源代码。</p><p><code>JAVA源代码： 一堆按照某规则编写的代码.以文件类型存储在计算机的硬盘上，后缀为.java</code></p><p># Demo java源代码</p><figure class="highlight java"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs java"><span class="hljs-comment">// 第一个程序HelloWorld</span><br><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Demo</span></span>&#123;<br><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span></span>&#123;<br>System.out.println(<span class="hljs-string">&quot;Hello World!&quot;</span>);<br>&#125;<br>&#125;<br></code></pre></div></td></tr></table></figure><p># 需要注意 的问题</p><ul><li>Java代码对大小写敏感，如果存在大小写的错误，程序是无法运行的。</li><li>代码中<code>//</code>为程序的注释符，方便读者检查理解代码的功能或意义。</li><li>关键字<code>public</code> 即访问修饰符是（access modifier）,它是用来控制程序其他部分对控制代码部分的访问级别。</li><li>关键字<code>class</code> 表明Java程序中的全部内容都包含在类中，类是作为一个加载程序的逻辑容器。 </li><li>关键字<code>class</code>之后紧跟着的是类名。Java中定义的规则不是很严格，名字必须以字母开头，后面可以跟字母和数字的任意组合，长度基本没有限定，但时不能使用Java保留字。</li><li>Java类名应该符合标准的命名规范：类名是以大写字母开头的名词。如果名字由多个单词构成，则每个单词的第一个字母都必须大写。</li><li>在类名Demo之后对应的半个花括号<code>&#123;</code>，与最后一行的<code>&#125;</code>对应。做了类声明的开始和结束符号。</li></ul><p>JDK包中的常用命令</p><table><thead><tr><th>程序</th><th>说明</th></tr></thead><tbody><tr><td>javac</td><td>java文件编译器，用于将java源代码（*.java）编译问字节码（*.class）。</td></tr><tr><td>java</td><td>java解释器，解释并执行 *.class 文件。</td></tr><tr><td>jdb</td><td>java调试工具，帮助程序员发现程序中的错误，以及对错误进行定位和跟踪。</td></tr><tr><td>javap</td><td>java反编译器，将java字节码（*.class）反编译为源代码。</td></tr></tbody></table><p><img src="https://i.loli.net/2021/06/23/HIAfN9Pm6y4ul8c.png" alt="image-20210623195604069"></p><hr><p># 修正记录</p><p># 参考文献</p><p>《Java开发手册 》</p><p>《JAVA零基础入门到精通》</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>java</tag>
+      
+      <tag>开发</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
